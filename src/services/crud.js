@@ -65,10 +65,11 @@ module.exports = function (Model) {
                 let average = 0;
                 
                 if(ratingSum!=0)
-                    average=ratingSum/ratingCount;
+                    average=(ratingSum/ratingCount);
+                
                 
                 let solution = {
-                    average: average,
+                    average: average != 0 && average != 10 ? average.toFixed(1) : average,
                     total: ratingCount
                 };
 
