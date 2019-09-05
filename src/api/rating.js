@@ -10,7 +10,6 @@ module.exports = function(router){
     router.get('/:id', RatingController.getRatingByIdCtrl ),
     router.post('/',validateToken, RatingController.insertRatingCtrl ),
     router.delete('/:id', RatingController.deleteRatingCtrl )
-    
 
-    return router
+    return router;
 }
