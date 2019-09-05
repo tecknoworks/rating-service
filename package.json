@@ -1,0 +1,31 @@
+{
+  "name": "rating-service",
+  "version": "1.0.0",
+  "description": "Rating",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "rater-js": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecknoworks/rating-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecknoworks/rating-service/issues"
+  },
+  "homepage": "https://github.com/tecknoworks/rating-service#readme"
+}
